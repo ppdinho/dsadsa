@@ -1,0 +1,808 @@
+.sidebar{
+  display: flex;
+  background-color: black;
+  width: 1920px;
+  height: 60px;
+  margin-left: -8px;
+  margin-top: -10px;
+}
+.logo{
+  display: flex;
+  margin-top: -57px;
+  margin-left: 800px;
+}
+.insta{
+  display: flex;
+  margin-top: -45px;
+  margin-left: 1000px;
+}
+.produto1{
+  display: flex;
+ margin-top: 145px;
+ margin-left: 150px;
+ overflow: hidden;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caixa1{
+  width: 500px;
+  height: 500px;
+}
+.traco5{
+  display: none;
+}
+.caixa2{
+  width: 200px;
+  height: 200px;
+}
+.caixa3{
+  width: 200px;
+  height: 200px;
+}
+.produto2{
+  display: flex;
+ margin-top: -425px;
+ margin-left: 0px;
+}
+.preco{
+  display: flex;
+  margin-top: -425px;
+  margin-left: 650px;
+  font-size: 62px
+}
+.avaliacao{
+  display: flex;
+  margin-top: 55px;
+  margin-left: 650px;
+  font-size: 22px;
+}
+.estrelas2{
+  display: flex;
+  margin-left: 685px;
+  margin-top: -20px;
+}
+.traco1{
+  display: flex;
+  margin-top: px;
+  margin-left: 720px;
+  background-color: black;
+  width: 92px;
+  height: 2px;
+  transform: rotate(90deg);
+}
+.quantidade{
+  display: flex;
+  margin-top: -28px;
+  margin-left: 795px;
+  font-size: 20px;
+}
+.avaliacoes{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 800px;
+  font-size: 10px;
+  color: rgba(99, 78, 78, 1);
+}
+.traco2{
+  display: flex;
+  margin-top: -12px;
+  margin-left: 850px;
+  background-color: black;
+  width: 92px;
+  height: 2px;
+  transform: rotate(90deg);
+}
+.quantidadev{
+  display: flex;
+  margin-top: -28px;
+  margin-left: 925px;
+  font-size: 20px;
+}
+.vendas{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 935px;
+  font-size: 10px;
+  color: rgba(99, 78, 78, 1);
+}
+.caminhao{
+  display: flex;
+ margin-left: 650px;
+ margin-top: 100px;
+}
+.caminhao2{
+  width: 30px;
+  height: 30px;
+}
+.Frete{
+  display: flex;
+  margin-left: 700px;
+  margin-top: -20px;
+  font-size: 10px;
+  color: rgba(20, 255, 28, 1);
+}
+.Frete2{
+  display: flex;
+  margin-left: 775px;
+  margin-top: -11px;
+  font-size: 10px;
+}
+.pagamentos{
+  display: flex;
+ gap: 10px;
+  margin-left: 650px;
+  margin-top: 30px;
+}
+.dindin{
+
+    display: flex; 
+    margin-left: 750px;
+    margin-top: -30px;
+}
+.dindin2{
+  background-color: #FFA500; /* Laranja vibrante */
+  color: white;
+  border: none;
+  padding: 1px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Suavidade na transição */
+}
+button:hover {
+  background-color: #FF8C00; /* Tom de laranja mais escuro no hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra leve */
+  transform: translateY(-2px); /* Levanta levemente o botão */
+}
+.P2{
+  color: white;
+}
+.descricao{
+  display: flex;
+  margin-top: -470px;
+  margin-left: 1200px;
+}
+.borda{
+  display: flex;
+  background-color: white; /* Fundo branco */
+        border: 3px solid #3498db; /* Borda azul de 3px de espessura */
+        border-radius: 10px; /* Bordas arredondadas */
+        padding: 100px; /* Espaçamento interno */
+        width: 450px; /* Largura da coluna */
+        margin: 20px auto; /* Centraliza a coluna na página */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+        margin-left: 1100px;
+        height: 500px;
+       margin-top: -500px;
+}
+.selo2{
+  height: 20px;
+  width: 20px;
+}
+.selo{
+  display: flex;
+  margin-left: 750px;
+  margin-top: -215px;
+}
+.autenticidade{
+  display: flex;
+  font-size: 8px;
+  margin-left: 775px;
+  margin-top: -10px;
+}
+.P3{
+  display: flex;
+  margin-top: -5px;
+}
+
+.traco3{
+  display: flex;
+  margin-top: 130px;
+  margin-left: -10px;
+  background-color: black;
+  width: 800px;
+  height: 2px;
+}
+.preco2{
+  display: flex;
+ margin-top: -10px;
+  margin-left: 870px;
+
+}
+.traco4{
+  display: flex;
+margin-top: -10px;
+  margin-left: 1100px;
+  background-color: black;
+  width: 800px;
+  height: 2px;
+}
+.comentario1{
+  display: flex;
+  margin-top: 150px;
+}
+.traco6{
+  display: none;
+}
+.cliente1{
+  border-radius: 100px;
+  height: 60px;
+  margin-top: -78px;
+  margin-left: 20px;
+}
+.frase{
+  display: flex;
+  margin-left: 85px;
+  margin-top: -50px;
+  font-size: 10px;
+}
+.estrelas3{
+  display: flex;
+  gap: 5px;
+  margin-left: 85px;
+  margin-top: -35px;
+}
+.estrela3{
+  width: 10px;
+  height: 10px;
+}
+
+
+
+@media (max-width: 915px) {
+  .sidebar{
+    display: flex;
+    background-color: black;
+    width: 500px;
+    height: 60px;
+    margin-left: -8px;
+    margin-top: -10px;
+  }
+  .logo{
+    display: flex;
+    margin-top: -57px;
+    margin-left: 150px;
+  }
+  .insta{
+    display: flex;
+    margin-top: -45px;
+    margin-left: 280px;
+  }
+  .instagram{
+    display: flex;
+  
+  }
+  .produto1{
+    display: flex;
+    margin-top: 145px;
+    margin-left: 150px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .caixa1{
+    width: 350px;
+    height: 350px;
+  }
+  .caixa2{
+    width: 130px;
+    height: 130px;
+  }
+  .caixa3{
+    width: 130px;
+  height: 130px;
+  }
+  .produto2{
+    display: flex;
+    margin-top: -300px;
+  margin-left: 50px;
+  }
+  .produto3{
+      display: flex;
+    margin-top: 30px;
+  margin-left: 50px;
+  }
+  .preco{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 180px;
+    font-size: 42px
+  }
+  .avaliacao{
+    display: flex;
+    margin-top: 55px;
+    margin-left: 90px;
+    font-size: 22px;
+  }
+  .estrelas2{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 125px;
+    font-size: 10px;
+    color: rgba(99, 78, 78, 1);
+  }
+  .traco1{
+    display: flex;
+    margin-top: px;
+    margin-left: 160px;
+    background-color: black;
+    width: 92px;
+    height: 2px;
+    transform: rotate(90deg);
+  }
+  .quantidade{
+    display: flex;
+    margin-top: -px;
+    margin-left:220px;
+    font-size: 20px;
+  }
+  .avaliacoes{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 227px;
+    font-size: 10px;
+    color: rgba(99, 78, 78, 1);
+  }
+  .traco2{
+    display: flex;
+    margin-top: px;
+    margin-left: 270px;
+    background-color: black;
+    width: 92px;
+    height: 2px;
+    transform: rotate(90deg);
+  }
+  .quantidadev{
+    display: flex;
+    margin-top: -28px;
+    margin-left: 340px;
+    font-size: 20px;
+  }
+  .vendas{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 350px;
+    font-size: 10px;
+    color: rgba(99, 78, 78, 1);
+  }
+  .caminhao{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 100px;
+  }
+  .caminhao2{
+    width: 30px;
+    height: 30px;
+  }
+  .Frete{
+    display: flex;
+    margin-left: 200px;
+    margin-top: -20px;
+    font-size: 10px;
+    color: rgba(20, 255, 28, 1);
+  }
+  .Frete2{
+    display: flex;
+    margin-left: 280px;
+    margin-top: -11px;
+    font-size: 10px;
+  }
+  .pagamentos{
+    display: flex;
+    gap: 10px;
+     margin-left: 170px;
+     margin-top: 30px;
+  }
+  .dindin{
+    display: flex; 
+    margin-left: 250px;
+    margin-top: -30px;
+
+  }
+ 
+  .dindin2{
+    background-color: #FFA500; /* Laranja vibrante */
+    color: white;
+    border: none;
+    padding: 1px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Suavidade na transição */
+  }
+  button:hover {
+    background-color: #FF8C00; /* Tom de laranja mais escuro no hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra leve */
+    transform: translateY(-2px); /* Levanta levemente o botão */
+  }
+  .traco5{
+    display: flex;
+    margin-top: -560px;
+    margin-left: 0px;
+    background-color: black;
+    width: 500px;
+    height: 1px;
+
+
+  }
+  .traco6{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 0px;
+    background-color: black;
+    width: 500px;
+    height: 1px;
+  }
+  .P2{
+    color: white;
+  }
+  .descricao{
+    display: none;
+  }
+  .borda{
+    display: none;
+  }
+  .selo2{
+    display: none;
+  }
+  .selo{
+    display: none;
+  }
+  .autenticidade{
+    display: none;
+  }
+  .P3{
+    display: none;
+  }
+  
+  .traco3{
+    display: none;
+  }
+  .preco2{
+
+    display: none;
+  }
+  .traco4{
+    display: none;
+  }
+  .comentario1{
+    display: flex;
+    margin-top: 180px;
+  }
+  .cliente1{
+    border-radius: 100px;
+  height: 60px;
+  margin-top: -56px;
+  margin-left: 20px;
+  }
+  .frase{
+    display: flex;
+    margin-left: 85px;
+    margin-top: -30px;
+    font-size: 10px;
+  }
+  .estrelas3{
+    display: flex;
+    gap: 5px;
+    margin-left: 85px;
+    margin-top: -30px;
+  }
+  .estrela3{
+    width: 10px;
+    height: 10px;
+  }
+  #frase2{
+    display: flex;
+    margin-left: 85px;
+    margin-top: -30px;
+    font-size: 10px;
+  }
+  #estrel34{
+    display: flex;
+    gap: 5px;
+    margin-left: 85px;
+    margin-top: -50px;
+  }
+  #cliente11{
+    border-radius: 100px;
+    height: 60px;
+    margin-top: -46px;
+    margin-left: 20px;
+  }
+  #frase3{
+    display: flex;
+    margin-left: 85px;
+    margin-top: -40px;
+    font-size: 10px;
+  }
+  #estrela34{
+    display: flex;
+    gap: 5px;
+    margin-left: 85px;
+    margin-top: -60px;
+  }
+
+
+
+}
+
+@media (max-height: 360px)
+{
+  .sidebar{
+    display: flex;
+    background-color: black;
+    width: 500px;
+    height: 60px;
+    margin-left: -8px;
+    margin-top: -10px;
+  }
+  .logo{
+    display: flex;
+    margin-top: -57px;
+    margin-left: 150px;
+  }
+  .insta{
+    display: flex;
+    margin-top: -45px;
+    margin-left: 280px;
+  }
+  .instagram{
+    display: flex;
+  
+  }
+  .produto1{
+    display: flex;
+    margin-top: 145px;
+    margin-left: 150px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .caixa1{
+    width: 350px;
+    height: 350px;
+  }
+  .caixa2{
+    width: 130px;
+    height: 130px;
+  }
+  .caixa3{
+    width: 130px;
+  height: 130px;
+  }
+  .produto2{
+    display: flex;
+    margin-top: -300px;
+  margin-left: 50px;
+  }
+  .produto3{
+      display: flex;
+    margin-top: 30px;
+  margin-left: 50px;
+  }
+  .preco{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 180px;
+    font-size: 42px
+  }
+  .avaliacao{
+    display: flex;
+    margin-top: 55px;
+    margin-left: 90px;
+    font-size: 22px;
+  }
+  .estrelas2{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 125px;
+    font-size: 10px;
+    color: rgba(99, 78, 78, 1);
+  }
+  .traco1{
+    display: flex;
+    margin-top: px;
+    margin-left: 160px;
+    background-color: black;
+    width: 92px;
+    height: 2px;
+    transform: rotate(90deg);
+  }
+  .quantidade{
+    display: flex;
+    margin-top: -px;
+    margin-left:220px;
+    font-size: 20px;
+  }
+  .avaliacoes{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 227px;
+    font-size: 10px;
+    color: rgba(99, 78, 78, 1);
+  }
+  .traco2{
+    display: flex;
+    margin-top: px;
+    margin-left: 270px;
+    background-color: black;
+    width: 92px;
+    height: 2px;
+    transform: rotate(90deg);
+  }
+  .quantidadev{
+    display: flex;
+    margin-top: -28px;
+    margin-left: 340px;
+    font-size: 20px;
+  }
+  .vendas{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 350px;
+    font-size: 10px;
+    color: rgba(99, 78, 78, 1);
+  }
+  .caminhao{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 100px;
+  }
+  .caminhao2{
+    width: 30px;
+    height: 30px;
+  }
+  .Frete{
+    display: flex;
+    margin-left: 200px;
+    margin-top: -20px;
+    font-size: 10px;
+    color: rgba(20, 255, 28, 1);
+  }
+  .Frete2{
+    display: flex;
+    margin-left: 280px;
+    margin-top: -11px;
+    font-size: 10px;
+  }
+  .pagamentos{
+    display: flex;
+    gap: 10px;
+     margin-left: 170px;
+     margin-top: 30px;
+  }
+  .dindin{
+    display: flex; 
+    margin-left: 250px;
+    margin-top: -30px;
+
+  }
+ 
+  .dindin2{
+    background-color: #FFA500; /* Laranja vibrante */
+    color: white;
+    border: none;
+    padding: 1px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Suavidade na transição */
+  }
+  button:hover {
+    background-color: #FF8C00; /* Tom de laranja mais escuro no hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra leve */
+    transform: translateY(-2px); /* Levanta levemente o botão */
+  }
+  .traco5{
+    display: flex;
+    margin-top: -560px;
+    margin-left: 0px;
+    background-color: black;
+    width: 500px;
+    height: 1px;
+
+
+  }
+  .traco6{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 0px;
+    background-color: black;
+    width: 500px;
+    height: 1px;
+  }
+  .P2{
+    color: white;
+  }
+  .descricao{
+    display: none;
+  }
+  .borda{
+    display: none;
+  }
+  .selo2{
+    display: none;
+  }
+  .selo{
+    display: none;
+  }
+  .autenticidade{
+    display: none;
+  }
+  .P3{
+    display: none;
+  }
+  
+  .traco3{
+    display: none;
+  }
+  .preco2{
+
+    display: none;
+  }
+  .traco4{
+    display: none;
+  }
+  .comentario1{
+    display: flex;
+    margin-top: 180px;
+  }
+  .cliente1{
+    border-radius: 100px;
+  height: 60px;
+  margin-top: -56px;
+  margin-left: 20px;
+  }
+  .frase{
+    display: flex;
+    margin-left: 85px;
+    margin-top: -30px;
+    font-size: 10px;
+  }
+  .estrelas3{
+    display: flex;
+    gap: 5px;
+    margin-left: 85px;
+    margin-top: -30px;
+  }
+  .estrela3{
+    width: 10px;
+    height: 10px;
+  }
+  #frase2{
+    display: flex;
+    margin-left: 85px;
+    margin-top: -30px;
+    font-size: 10px;
+  }
+  #estrel34{
+    display: flex;
+    gap: 5px;
+    margin-left: 85px;
+    margin-top: -50px;
+  }
+  #cliente11{
+    border-radius: 100px;
+    height: 60px;
+    margin-top: -46px;
+    margin-left: 20px;
+  }
+  #frase3{
+    display: flex;
+    margin-left: 85px;
+    margin-top: -40px;
+    font-size: 10px;
+  }
+  #estrela34{
+    display: flex;
+    gap: 5px;
+    margin-left: 85px;
+    margin-top: -60px;
+  }
+
+
+
+}
